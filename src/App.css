@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-right: 30px;
+
+}
+
+
+
+h1{
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  width: 50vw;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.page-description{
+  color: white;
+  width: 50vw;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+
+.intro{
+  background-color: #1f2535;
+  height: 50vh;
+  margin: 20px;
+}
+
+
+
+.button {
+  background-color: white;
+  color: 1f2535;
+  font-family: Roboto Condensed;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 7px;
+  margin-top: 30px;
+  border-width: 0px;
+  margin-left: 40px;
+  width: 120px;
+  height: 50px;
+}
+
+.perks ul{
+  margin: 40px;  
+  display:flex
+}
+
+.perks ul li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.perks ul li label{
+  font-weight: bold;
+}
+
+.perks ul li p {
+  color: #bababa;
+  padding-top: 5px;
+  padding-right: 5px;
+  font-size: 15px;
+
+}
